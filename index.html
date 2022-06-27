@@ -10,8 +10,12 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
-<body>
-    <header></header>
+<body class="container-fluid">
+    <header class="mainTittle d-flex flex-column align-items-center">
+      <a href="./index.html"><img src="./assets/img/logocake.png" alt=""></a>
+      <h1>Pasteles D' Liz</h1>
+      <h2>Exquisitamente caseros</h2>
+    </header>
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
@@ -63,8 +67,32 @@
               <span class="visually-hidden">Next</span>
             </button>
         </div>
+        <div class="infoBox row">
+          <div class="delivery d-flex flex-column align-items-center p-3 col-12 col-md-6">
+              <img src="./assets/img/deliveryIcon.png" alt="">
+              <h3>Entrega gratis</h4>
+              <p class="text-center">Entrega gratis, rápida y confiable en pedidos mayores a $200.00</p>
+          </div>
+          <div class="shopOnline d-flex flex-column align-items-center p-3 col-12 col-md-6">
+              <img src="./assets/img/heartIcon.png" alt="">
+              <h3>Compra segura</h4>
+              <p class="text-center">Compra en nuestra tienda en línea de manera rápida y segura</p>
+          </div>
+      </div>
     </main>
-    <footer></footer>
+    <footer class="footer d-flex pt-5 align-items-center justify-content-around">
+      <div class="col-12 col-md-4">
+          <img class="paymentLogo" src="./assets/img/paymentOptions.png" alt="">
+      </div>
+      <div class="col-12 col-md-4">
+          <h5 class="text-center">Pasteles D' Liz</h5>
+          <p class="text-center">© 2022. All Rights Reserved.</p>
+      </div>
+      <div class="socialMedia col-12 col-md-4 d-flex flex-column align-items-center">
+          <h5 class="text-center">Síguenos</h5>
+          <a href="https://www.facebook.com/PastelesDLiz/"><img src="./assets/img/fb.png" alt=""></a>
+      </div>
+  </footer>
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script> 
 </body>
