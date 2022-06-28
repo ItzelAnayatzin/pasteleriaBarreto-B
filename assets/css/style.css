@@ -1,20 +1,26 @@
 /*This is the design for the header*/
 .mainTittle h2{
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .mainTittle img {
-    width: 40px;
+    width: 60px;
 }
 
+
 /*This is the design for the footer*/
+.footer{
+    background-color: #eab4e979;
+}
+
 .paymentLogo{
-    width: 50%;
+    width: 200px;
 }
 
 .socialMedia a img{
-    width: 5%;
+    width: 30px;
 }
+
 
 /*This is the design for the page ''index''*/
 .delivery img{
@@ -23,4 +29,48 @@
 
 .shopOnline img{
     width: 50px;
+}
+
+
+/*This is the design for the page ''nosotros''*/
+.greetingImg{
+    background-image: url(../img/backgroundAu.jpg);
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bioOwner img{
+    width: 50%;
+}
+
+
+/*This is the design for the page ''nuestras delicias''*/
+.ourProducts{
+    background-image: url(../img/backgroundOp.jpg);
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cakesDes img{
+    width: 100%;
+}
+
+
+/*This is the design for the page ''encuentranos''*/
+.findUs{
+    background-image: url(../img/backgroundFu1.jpg);
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/*This is the design for the page ''contacto''*/
+.contactUs{
+    background-image: url(../img/backgroundContact.jpg);
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }

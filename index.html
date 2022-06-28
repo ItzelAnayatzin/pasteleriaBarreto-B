@@ -11,39 +11,30 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body class="container-fluid">
-    <header class="mainTittle d-flex flex-column align-items-center">
+    <header class="mainTittle d-flex flex-column align-items-center pt-5 pb-5">
       <a href="./index.html"><img src="./assets/img/logocake.png" alt=""></a>
       <h1>Pasteles D' Liz</h1>
       <h2>Exquisitamente caseros</h2>
     </header>
     <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img src="./assets/img/logoCake.png" alt="" width="30" height="30">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Nosotros</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Nuestras Delicias</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link">Encuentranos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link">Contacto</a>
-              </li>
-            </ul>
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+            <a class="nav-link active" href="./pages/nosotros.html">Nosotros</a>
+            <a class="nav-link active" href="./pages/nuestrasDelicias.html">Nuestras Delicias</a>
+            <a class="nav-link active" href="./pages/encuentranos.html">Encuentranos</a>
+            <a class="nav-link active" href="./pages/contacto.html">Contacto</a>
           </div>
         </div>
+        <div class="shopImg">
+          <img src="./assets/img/loginIcon.png" alt="" width="30" height="30">
+          <img src="./assets/img/shopIcon.png" alt="" width="30" height="30">
+        </div> 
+      </div>
     </nav>
     <main>
         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
@@ -67,7 +58,7 @@
               <span class="visually-hidden">Next</span>
             </button>
         </div>
-        <div class="infoBox row">
+        <div class="infoBox row mt-5 mb-5">
           <div class="delivery d-flex flex-column align-items-center p-3 col-12 col-md-6">
               <img src="./assets/img/deliveryIcon.png" alt="">
               <h3>Entrega gratis</h4>
@@ -80,19 +71,19 @@
           </div>
       </div>
     </main>
-    <footer class="footer d-flex pt-5 align-items-center justify-content-around">
-      <div class="col-12 col-md-4">
+    <footer class="footer row mt-5">
+      <div class="d-flex flex-column align-items-center p-3 col-12 col-md-4">
           <img class="paymentLogo" src="./assets/img/paymentOptions.png" alt="">
       </div>
-      <div class="col-12 col-md-4">
-          <h5 class="text-center">Pasteles D' Liz</h5>
-          <p class="text-center">© 2022. All Rights Reserved.</p>
+      <div class="d-flex flex-column align-items-center p-3 col-12 col-md-4">
+          <h5>Pasteles D' Liz</h5>
+          <p>© 2022. All Rights Reserved.</p>
       </div>
-      <div class="socialMedia col-12 col-md-4 d-flex flex-column align-items-center">
-          <h5 class="text-center">Síguenos</h5>
+      <div class="socialMedia d-flex flex-column align-items-center p-3 col-12 col-md-4">
+          <h5>Síguenos</h5>
           <a href="https://www.facebook.com/PastelesDLiz/"><img src="./assets/img/fb.png" alt=""></a>
       </div>
-  </footer>
+    </footer>
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script> 
 </body>
